@@ -4,14 +4,15 @@
 
 void input(int *n);
 int check_input(int **number);
-int res(int n);
-void output(int k);
+int res(int *n);
+void output(int *n);
 
 int main() {
     int num;
+    printf("Address of num (main function) = %p\n\n", &num);
     input(&num);
-    int result = res(num);
-    output(result);
+    int result = res(&num);
+    output(&result);
     return 0;
 }
 
@@ -20,7 +21,7 @@ void input(int *n) {
     printf("Type your number\n");
     check_input(&n);
     printf("num  = %d\n", *n);
-    printf("Address of num (input function) = %p\n\n", &n);
+    printf("Address of num (input function1) = %p\n\n", n);
 }
 
 int check_input(int **n) {     // При вводе "5 ENTER" в *n = 5, symbol = '\n'
@@ -32,13 +33,13 @@ int check_input(int **n) {     // При вводе "5 ENTER" в *n = 5, symbol 
     return 0;
 }
 
-int res(int n) {
-    printf("num  = %d\n", n);
-    printf("Address of num (result function) = %p\n\n", &n);
-    return n * 2;
+int res(int *n) {
+    printf("num  = %d\n", *n);
+    printf("Address of num (result function) = %p\n\n", n);
+    return (*n) * 2;
 }
 
-void output(int k) {
-    printf("result of num * 2 = %d\n", k);
-    printf("Address of result = %p\n\n", &k);
+void output(int *n) {
+    printf("result of num * 2 = %d\n", *n);
+    printf("Address of result = %p\n\n", &n);
 }
