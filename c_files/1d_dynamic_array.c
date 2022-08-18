@@ -48,7 +48,7 @@ void sort(int *array, int n) {
 }
 
 void output(int *array, int n) {
-     printf("Your array:\n");
+    printf("Your array:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", array[i]);
     }
