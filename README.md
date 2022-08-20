@@ -4,7 +4,7 @@
 ***
 Установи Vim, либо Linux OS
 
-* [Гайд по командной строке и Vim (PDF)](https://ru.hexlet.io/courses/cli-basics)
+* [Гайд по командной строке и Vim (PDF)](https://github.com/halltape/C/blob/master/materials/Final%20TERMINAL.jpg)
 * [Основы командной строки](https://ru.hexlet.io/courses/cli-basics)
 ***
 Изучай язык Си
