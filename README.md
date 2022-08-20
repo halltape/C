@@ -19,5 +19,4 @@
 >[Хирьянов видео-лекции](http://cs.mipt.ru/c_intro/)
 
 
->[Прочти перед тем, как идти на интенсив](http://cs.mipt.ru/c_intro/)
-
+>[Прочти перед тем, как идти на интенсив](https://github.com/halltape/C/blob/master/materials/about_sirvival_camp.md)
