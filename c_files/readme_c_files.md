@@ -25,10 +25,21 @@
 * Используются функции и указатели
 
 [Указатели](https://github.com/halltape/C/blob/master/c_files/pointer.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|5| num  = 5<br>Address of num (input function1) = 0x7fffdb56b680<br><br>num  = 5<br>Address of num (result function) = 0x7fffdb56b680<br><br>result of num * 2 = 10<br>Address of result = 0x7fffdb56b668|
+
+P.S. Адреса могут быть разными на разных машинах
 
 [Одномерный статический массив](https://github.com/halltape/C/blob/master/c_files/1d_static_array.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|5<br>5 4 3 2 1 | Your array<br>1 2 3 4 5|
 
 [Двумерный статический массив](https://github.com/halltape/C/blob/master/c_files/2d_static_array.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|3<br>9 8 7 6 5 4 | Your array<br>8 9<br>6 7<br>4 5|
 
 ## 2. Динамическая память
 * Input-Output
@@ -37,12 +48,24 @@
 * Используются функции и указатели
 
 [Одномерный динамический массив](https://github.com/halltape/C/blob/master/c_files/1d_dynamic_array.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|5<br>5 4 3 2 1 | Your array<br>1 2 3 4 5|
 
 [Одномерный безразмерный динамический массив](https://github.com/halltape/C/blob/master/c_files/1d_dynamic_nosize__array.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|6 4 2 7 8 1 9 -1| Your array<br>1 2 4 6 7 8 9 -1|
 
 [Двумерный динамический массив](https://github.com/halltape/C/blob/master/c_files/2d_dynamic_array.c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|2<br>3<br>9 4 6 7 2 5| Your array<br>4 6 9 <br>2 5 7|
 
 [Змейка](https://github.com/halltape/C/blob/master/c_files/snake(dynamic_array).c)
+| Входные данные | Выходные данные |
+| ------ | ------ |
+|5<br>6| 1&emsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;6<br>18 19 20 21 22  7<br>17 28 29 30 23  8<br>16 27 26 25 24  9<br>15 14 13 12 11 10|
 
 ## 3. Структуры
 * Input-Output
