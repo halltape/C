@@ -49,7 +49,7 @@
 * Поиск совпадения слова в массиве структур
 * Используются функции и указатели
 
-[Статический массив структур](no_link)
+[Статический массив структур](https://github.com/halltape/C/blob/master/c_files/struct_static.c)
 | Входные данные | Выходные данные |
 | ------ | ------ |
 |2022<br>BMW<br>M5<br>2024<br>Mers<br>CLK<br>2019<br>Jaguar<br>Xj <br> <br>BMW| Year = 2022<br>Label = BMW<br>Model = M5<br><br>Year = 2024<br>Label = Mers<br>Model = CLK<br><br>Year = 2019<br>Label = Jaguar<br>Model = Xj<br><br>This data exist! |
