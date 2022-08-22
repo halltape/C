@@ -9,7 +9,7 @@
 ***
 Изучай язык Си (Здесь уже можно перейти на VSCode)
 * [Курс степик по СИ](https://stepik.org/course/3078/syllabus)
-* [Динамическая память и структуры](https://github.com/halltape/C/blob/master/c_files/readme_c_files.md)
+* [Динамическая память и структуры](https://github.com/halltape/C/blob/master/materials/readme_c_files.md)
 ***
 Полезные ссылки
 >[Сайт по СИ](https://prog-cpp.ru/c-data-types/)
