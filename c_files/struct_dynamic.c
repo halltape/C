@@ -45,6 +45,7 @@ int input(struct person **student) {
             *student = CheckNULL(realloc(*student, (length + 1) * sizeof(struct person)));
             symbol = getchar();
         }
+        *student = CheckNULL(realloc(*student, (length) * sizeof(struct person)));
     return length;
 }
 

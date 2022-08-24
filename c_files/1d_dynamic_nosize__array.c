@@ -12,7 +12,7 @@ int main() {
     int N = input(&arr);
     sort(arr, N);
     output(arr, N);
-    free(arr);
+    //free(arr);
     return 0;
 }
 
@@ -38,6 +38,7 @@ int input(int **array) {
             *array = CheckNULL(realloc(*array, capacity * sizeof(int)));
         }
     }
+    *array = CheckNULL(realloc(*array, length * sizeof(int)));
     return length;
 }
 
