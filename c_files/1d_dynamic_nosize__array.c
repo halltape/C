@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
 
 void *CheckNULL(void *ptr);
 int input(int **array);
@@ -12,7 +11,7 @@ int main() {
     int N = input(&arr);
     sort(arr, N);
     output(arr, N);
-    //free(arr);
+    free(arr);
     return 0;
 }
 

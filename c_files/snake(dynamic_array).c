@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
 
 void input(int ***array, int *n, int *m);
 int check_input(int **number);
