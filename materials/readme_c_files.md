@@ -92,7 +92,7 @@ P.S. Адреса могут быть разными на разных маши�
 * Input-Output
 * Используются функции и указатели
 
-[Односвязный список](https://github.com/halltape/C/blob/master/c_files/struct_dynamic.c)
+[Односвязный список](https://github.com/halltape/C/blob/master/c_files/single_linked_list.c)
 | Входные данные | Выходные данные |
 | ------ | ------ |
 |25 David man 30 Olivia woman 23 Jessica woman 50 Williams man 28 Charlie man 19 Arnold man | Age = 25<br>Name = David<br>Sex = man<br><br>Age = 30<br>Name = Olivia<br>Sex = woman<br><br>Age = 23<br>Name = Jessica<br>Sex = woman<br><br>Age = 50<br>Name = Williams<br>Sex = man<br><br>Age = 28<br>Name = Charlie<br>Sex = man<br><br>Age = 19<br>Name = Arnold<br>Sex = man<br><br>The number of elements = 6|
