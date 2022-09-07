@@ -29,9 +29,9 @@ void input(struct person **head) {
     char name[30], sex[10];
     char symbol;
     printf("\nThis is a single linked list! Type or COPY-PASTE your data here!\n");
-    printf("Press 'ESC' and 'ENTER' after that\n");
+    printf("Dont push the ENTER button until you insert your data\n");
     printf("AGE\tNAME\tSEX\n");
-    while (symbol != 27) {
+    while (symbol != '\n') {
         scanf("%d%s%s", &age, name, sex);
         add_person(head, age, name, sex);
         symbol = getchar();
@@ -54,10 +54,13 @@ void add_person(struct person **head, int age, char *name, char *sex) {
 
 void output(struct person *head) {
     head = head -> next;
+    int i = 0;
     while (head != NULL) {
         printf("\nAge = %d\nName = %s\nSex = %s\n", head->age, head->name, head->sex);
         head = head -> next;
+        i++;
     }
+    printf("\nThe number of elements = %d\n\n", i);
 }
 
 void *CheckNULL(void *ptr) {
@@ -75,12 +78,12 @@ void free_func(struct person *head) {
     }
 }
 
-
-// void add_person(struct person **head, int age, char *name, char *sex) {
-//     struct person *node = CheckNULL((struct person*) malloc(sizeof(struct person)));
-//     node->age = age;
-//     strcpy(node->name, name);
-//     strcpy(node->sex, sex);
-//     node->next = *head;
-//     *head = node;
-// }
+// This function for adding the new one at the end of linked list
+/*void add_person(struct person **head, int age, char *name, char *sex) {
+    struct person *node = CheckNULL((struct person*) malloc(sizeof(struct person)));
+    node->age = age;
+    strcpy(node->name, name);
+    strcpy(node->sex, sex);
+    node->next = *head;
+    *head = node;
+}*/
