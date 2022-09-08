@@ -31,8 +31,11 @@ void input(struct person **head) {
     printf("\nThis is a single linked list! Type or COPY-PASTE your data here!\n");
     printf("Dont push the ENTER button until you insert your data\n");
     printf("AGE\tNAME\tSEX\n");
-    while (symbol != '\n') {
+    while (1) {
         scanf("%d%s%s", &age, name, sex);
+        if (age == -1) {
+            break;
+        }
         add_person(head, age, name, sex);
         symbol = getchar();
     }
