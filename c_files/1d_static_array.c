@@ -8,7 +8,7 @@ void output(int *array, int length, int *result);
 
 int main() {
     int N;
-    int *arr;
+    int arr[100];
     printf("This is static 1d array! Whats the length?\n");
     input(arr, &N);
     int sum = sort(arr, N);
