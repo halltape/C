@@ -9,7 +9,7 @@
 ***
 
 Установка python3 на Mac:
->[Порядок действий]()
+>[Порядок действий](https://github.com/halltape/C/blob/master/materials/mac_python3.md)
 ***
 
 Проверка на утечку памяти (через valgrind):
