@@ -8,6 +8,10 @@
 >sudo apt install python3
 ***
 
+Установка python3 на Mac:
+>[Порядок действий]()
+***
+
 Проверка на утечку памяти (через valgrind):
 >gcc -g -Wall -Werror -Wextra *******.c
 
