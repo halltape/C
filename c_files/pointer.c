@@ -9,7 +9,7 @@ void output(int *n);
 
 int main() {
     int num;
-    printf("Address of num (main function) = %p\n\n", &num);
+    printf("\nThe address of the 'int num' (main function) = %p\n\n", &num);
     input(&num);
     int result = res(&num);
     output(&result);
@@ -17,11 +17,11 @@ int main() {
 }
 
 void input(int *n) {
-    printf("And you will see why the 'same' variables have different adresses\n");
+    printf("You will see how pointers work\n");
     printf("Type your number\n");
     check_input(&n);
-    printf("num  = %d\n", *n);
-    printf("Address of num (input function1) = %p\n\n", n);
+    printf("n  = %d\n", *n);
+    printf("The address of the n (input function1) = %p\n\n", n);
 }
 
 int check_input(int **n) {     // При вводе "5 ENTER" в *n = 5, symbol = '\n'
@@ -34,12 +34,12 @@ int check_input(int **n) {     // При вводе "5 ENTER" в *n = 5, symbol 
 }
 
 int res(int *n) {
-    printf("num  = %d\n", *n);
-    printf("Address of num (result function) = %p\n\n", n);
+    printf("n  = %d\n", *n);
+    printf("The address of the n (result function) = %p\n\n", n);
     return (*n) * 2;
 }
 
 void output(int *n) {
-    printf("result of num * 2 = %d\n", *n);
-    printf("Address of result = %p\n\n", &n);
+    printf("The result is n * 2 = %d\n", *n);
+    printf("The address of the result = %p\n\n", &n);
 }
