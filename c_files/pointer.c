@@ -9,7 +9,7 @@ void output(int *n);
 
 int main() {
     int num;
-    printf("\nThe address of the 'int num' (main function) = %p\n\n", &num);
+    printf("\nThe address of the 'int num' (in main function) = %p\n\n", &num);
     input(&num);
     int result = res(&num);
     output(&result);
